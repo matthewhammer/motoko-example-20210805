@@ -12,7 +12,7 @@ import SeqObj "SeqObj";
 // types in separate file
 import Types "Types";
 
-/// Internal CanCan canister state.
+/// Internal CanCan state.
 module {
 
   // Our representation of (binary) relations.
