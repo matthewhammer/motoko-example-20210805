@@ -54,13 +54,13 @@ module {
     /// Summarizes basic profile info.
     public type Summary = {
       user : Bare;  // or User.Id, to be more specific. But then user.user is annoying, so this.
+      name : Text;
       createTime : Time;
-      username : Text;
     };
     /// Data for user to be stored in DB, each keyed by an Id.
     public type User = {
+      name : Text;
       createTime : Time;
-      username : Text;
     };
     /// Full -- A user's "full data' is defined by their posts, in aggregate?
     ///
